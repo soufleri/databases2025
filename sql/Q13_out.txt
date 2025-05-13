@@ -1,0 +1,16 @@
++--------------+-----------------------------+-----------------+----------------------------------------------+
+| performer_id | performer_name              | continent_count | continents                                   |
++--------------+-----------------------------+-----------------+----------------------------------------------+
+|           46 | Snoop Dogg                  |               5 | Africa, Asia, Europe, Oceania, South America |
+|           47 | Adele                       |               3 | Africa, Europe, North America                |
+|           32 | Bad Bunny                   |               3 | North America, Oceania, South America        |
+|           48 | Benson Boone                |               3 | Africa, North America, Oceania               |
+|            1 | Corey Taylor                |               3 | Africa, Oceania, South America               |
+|           20 | Guy-Manuel de Homem-Christo |               3 | Africa, Europe, North America                |
+|           35 | JoJo Siwa                   |               3 | Europe, North America, Oceania               |
+|           24 | Louis Armstrong             |               3 | Europe, North America, Oceania               |
+|           44 | NPC Music                   |               3 | Asia, North America, Oceania                 |
+|           50 | Olivia Rodrigo              |               3 | Africa, Asia, North America                  |
+|           45 | One Direction               |               3 | Asia, Europe, North America                  |
+|            3 | Taylor Swift                |               3 | Asia, Europe, North America                  |
++--------------+-----------------------------+-----------------+----------------------------------------------+

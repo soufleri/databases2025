@@ -1,0 +1,9 @@
++------------+--------------------+--------------+----------------+-------------+
+| visitor_id | full_name          | performer_id | performer_name | total_score |
++------------+--------------------+--------------+----------------+-------------+
+|          6 | Vinnie Agglione    |           48 | Benson Boone   |          37 |
+|        192 | Arleyne Canti      |           33 | Snik           |          37 |
+|         30 | Lesley Tyrer       |            1 | Corey Taylor   |          31 |
+|          2 | Alexandra Soufleri |           31 | Dave Mustaine  |          24 |
+|         10 | Shelly Dunrige     |           33 | Snik           |          24 |
++------------+--------------------+--------------+----------------+-------------+

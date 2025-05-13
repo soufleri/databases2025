@@ -1,0 +1,12 @@
++--------------+---------------+--------------------------------------+------+--------------------+
+| performer_id | stage_name    | real_name                            | age  | total_performances |
++--------------+---------------+--------------------------------------+------+--------------------+
+|           34 | NULL          | Sabrina Carpenter                    |   26 |                  6 |
+|           35 | JoJo Siwa     | Joelle Joanie Siwa                   |   21 |                  5 |
+|           50 | NULL          | Olivia Rodrigo                       |   22 |                  5 |
+|           48 | NULL          | Benson Boone                         |   22 |                  3 |
+|           11 | Jungkook      | Jeon Jung-kook                       |   27 |                  3 |
+|            6 | Billie Eilish | Billie Eilish Pirate Baird O"Connell |   23 |                  2 |
+|            7 | NULL          | Dua Lipa                             |   29 |                  2 |
+|            9 | Post Malone   | Austin Richard Post                  |   29 |                  0 |
++--------------+---------------+--------------------------------------+------+--------------------+

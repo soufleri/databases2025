@@ -1,0 +1,30 @@
++------------+--------------------+-----------------------+
+| visitor_id | full_name          | attended_performances |
++------------+--------------------+-----------------------+
+|          4 | Lloyd Defraine     |                     6 |
+|         59 | Travers Tunny      |                     6 |
+|          8 | Taffy Brugemann    |                     5 |
+|         11 | Callie Jerdein     |                     5 |
+|         17 | Chiquita Gostage   |                     5 |
+|         20 | Bay Adamski        |                     5 |
+|         24 | Tobit Mocher       |                     5 |
+|         30 | Lesley Tyrer       |                     5 |
+|         45 | Pearce Jikylls     |                     5 |
+|         47 | Lyndel Stellin     |                     5 |
+|        192 | Arleyne Canti      |                     5 |
+|          7 | Malissa Carnachen  |                     4 |
+|         15 | Rickert Balderston |                     4 |
+|         33 | Oswald Cousin      |                     4 |
+|         34 | Rolfe McCuffie     |                     4 |
+|         36 | Tedd Sheldrick     |                     4 |
+|         43 | Rebbecca Brimming  |                     4 |
+|         46 | Sherm Ionn         |                     4 |
+|         49 | Parrnell Giraudoux |                     4 |
+|         52 | Hedi Mistry        |                     4 |
+|         55 | Tanney Siely       |                     4 |
+|         58 | Bailie Axston      |                     4 |
+|         66 | Johannah Haugeh    |                     4 |
+|         69 | Jordanna Mabley    |                     4 |
+|         72 | Giulio Fines       |                     4 |
+|         75 | Riki Penna         |                     4 |
++------------+--------------------+-----------------------+

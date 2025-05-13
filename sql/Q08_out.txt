@@ -1,0 +1,45 @@
++----------+--------------------+
+| staff_id | full_name          |
++----------+--------------------+
+|      164 | Jerri Cumming      |
+|      165 | Ema Keeves         |
+|      166 | Abbot Millberg     |
+|      168 | Clovis Manuely     |
+|      169 | Della Thomkins     |
+|      170 | Jacynth Fookes     |
+|      171 | Demetris Drewry    |
+|      172 | Grace Suttill      |
+|      173 | Val Tarn           |
+|      174 | Larissa McCann     |
+|      175 | Maurizia Maciunas  |
+|      176 | Corbie Southwick   |
+|      177 | Forest Merriment   |
+|      178 | Langston Castan    |
+|      180 | Dallas Gosnell     |
+|      181 | Euell Tolhurst     |
+|      183 | Harcourt Tester    |
+|      184 | Husain Channon     |
+|      185 | Tybi Dolton        |
+|      186 | Andrey Duffy       |
+|      187 | Arvin Dickerson    |
+|      188 | Felizio Ruslen     |
+|      189 | Levon Fleming      |
+|      190 | Alyson Grimsell    |
+|      192 | Roxine Fischer     |
+|      193 | Juliette Mursell   |
+|      194 | Weider Curson      |
+|      195 | Danella Flieger    |
+|      196 | Desmond Beinke     |
+|      197 | Worth Mattiello    |
+|      198 | Thayne Silkston    |
+|      199 | Shep Keable        |
+|      200 | Lorant Artingstall |
+|      204 | Letisha Diperaus   |
+|      205 | Parnell McKinless  |
+|      206 | Perceval Montier   |
+|      207 | Gordan Pablos      |
+|      209 | Jude Waterstone    |
+|      210 | Sheeree Ransom     |
+|      211 | Lorenza Shinner    |
+|      213 | Sal Seedman        |
++----------+--------------------+

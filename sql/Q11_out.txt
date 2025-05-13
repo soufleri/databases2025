@@ -1,0 +1,15 @@
++--------------+--------------------+------------------+
+| performer_id | performer_name     | num_performances |
++--------------+--------------------+------------------+
+|           12 | Agust D            |                1 |
+|           28 | B.D. Foxmoor       |                1 |
+|           22 | Beyonc‚            |                1 |
+|           38 | BTS                |                1 |
+|           29 | Chris Martin       |                1 |
+|           13 | Christian Martucci |                1 |
+|           36 | Eminem             |                1 |
+|           41 | Megadeth           |                1 |
+|           43 | Nickelodeon        |                1 |
+|           10 | Peggy Gou          |                1 |
+|            8 | The Weeknd         |                1 |
++--------------+--------------------+------------------+
