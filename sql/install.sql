@@ -62,7 +62,8 @@ CREATE TABLE festival (
     location_id INT NOT NULL,
     FOREIGN KEY (location_id) REFERENCES location(location_id) ON DELETE RESTRICT ON UPDATE CASCADE,
     -- Indexes
-    INDEX idx_fest_location (location_id)
+    INDEX idx_fest_location (location_id),
+    INDEX idx_fest_loc (year, location_id)
 );
 
 CREATE TABLE stage (
@@ -79,7 +80,8 @@ CREATE TABLE stage (
     FOREIGN KEY (location_id) REFERENCES location(location_id) ON DELETE RESTRICT ON UPDATE CASCADE,
     -- Indexes
     KEY idx_stage_festival (year),
-    KEY idx_stage_location (location_id)
+    KEY idx_stage_location (location_id),
+    INDEX idx_stage_capacity (stage_id, year, capacity)
 );
 
 CREATE TABLE equipment (
@@ -121,9 +123,11 @@ CREATE TABLE event (
     FOREIGN KEY (year) REFERENCES festival(year) ON DELETE CASCADE ON UPDATE CASCADE,
     FOREIGN KEY (stage_id, year) REFERENCES stage(stage_id, year),
     -- Indexes
-    KEY idx_event_year (year),
+    KEY idx_ev_year (year),
     KEY idx_event_stage (stage_id, year),
-    INDEX idx_event_year_day_stage (year, festival_day, stage_id)
+    INDEX idx_event_year (event_id, year),
+    INDEX idx_event_date (event_id, date),
+    INDEX idx_event_day_stage (year, date, stage_id)
 );
 
 CREATE TABLE performance_type (
@@ -159,7 +163,8 @@ CREATE TABLE performance (
     KEY idx_perf_event (event_id),
     KEY idx_perf_performer (performer_id),
     KEY idx_perf_type (type_id),
-    INDEX idx_performer_event (performer_id, event_id),
+    INDEX idx_perf_performer_event (performer_id, event_id),
+    INDEX idx_performance_performer (performer_id, performance_id),
     INDEX idx_perf_type_event_perrformer (type_id, event_id, performer_id)
 );
 
@@ -253,9 +258,8 @@ CREATE TABLE performer_genre (
     FOREIGN KEY (performer_id) REFERENCES performer(performer_id) ON DELETE CASCADE ON UPDATE CASCADE,
     FOREIGN KEY (genre_id) REFERENCES genre(genre_id) ON DELETE CASCADE ON UPDATE CASCADE,
     -- Indexes
-    KEY idx_performer_genre_performer (performer_id),
-    KEY idx_performer_genre_genre (genre_id),
-    KEY idx_performer_genre_pair (performer_id, genre_id)
+    KEY idx_pg_performer (performer_id),
+    KEY idx_pg_genre (genre_id)
 );
 
 CREATE TABLE visitor (
@@ -304,6 +308,7 @@ CREATE TABLE ticket (
     KEY idx_ticket_visitor (visitor_id),
     KEY idx_ticket_category (category_id),
     KEY idx_ticket_payment (payment_method_id),
+    INDEX idx_tick_vis_ev (visitor_id, event_id, is_activated),
     INDEX idx_ticket_event_pm_price (event_id, payment_method_id, price_paid)
 );
 
@@ -400,7 +405,8 @@ CREATE TABLE rating (
     FOREIGN KEY (performance_id) REFERENCES performance(performance_id) ON DELETE CASCADE ON UPDATE CASCADE,
     FOREIGN KEY (ticket_id) REFERENCES ticket(ticket_id) ON DELETE CASCADE ON UPDATE CASCADE,
     -- Indexes
-    KEY idx_rating_performance (performance_id),
+    KEY idx_rating_ticket_perf (ticket_id, performance_id),
+    KEY idx_rating_perf (performance_id),
     KEY idx_rating_ticket (ticket_id)
 );
 
