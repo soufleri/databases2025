@@ -25,9 +25,8 @@ The system captures complex real-world requirements related to festival logistic
 │   ├── load.sql
 │   ├── Q01.sql … Q15.sql
 │   └── Q01_out.txt … Q15_out.txt
-├── docs/
-│   └── report.pdf
-└── code/ (optional)
+└── docs/
+    └── report.pdf
 ```
 ---
 ## 🔳 Diagram
@@ -51,6 +50,22 @@ The system captures complex real-world requirements related to festival logistic
   - Genre-based artist discovery
   - Cross-year statistics
   - Staff scheduling and resource optimization
+
+---
+
+## 🧠 Assumptions Made
+
+Additionally to the requirement/assumptions stated in the assignment text, we've assumed the following:
+
+| #  | Assumption |
+|----|------------|
+| 1  | Performers don't inherit their genre's parent-genres (if they exist). |
+| 2  | Appearances of a band member don't count as appearances for the individual members. |
+| 3  | Twenty (20) Tech Crew staff are  required per stage/enent. |
+| 4  | Only one events takes place on a stage per day. |
+| 5  | Entities/tables like visitors, don't include images/description (personal data). |
+| 6  | Visitor can buy tickets for events happening at the same time. |
+| 7  | Ticket sales begin 1 year prior to the festival's starting date. |
 
 ---
 
